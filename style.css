@@ -145,9 +145,11 @@ input{
     body{
         display: flex;
         flex-direction:row-reverse;
-        align-items: flex-start;
-        justify-content:flex-end;
+        align-items: center;
+        justify-content:center;
         background-image: url(./images/bg-pattern-desktop.svg) no-repeat;
+    
+
     
     
     }
@@ -170,6 +172,19 @@ input{
    }
    .desktop{
     display: block;
+    max-width: 400px;
+    margin-top:5.5rem ;
+   }
+   img{
+    max-width: 100%;
+   }
+   .info-1{
+    font-size:50px;
+    font-weight:600 ;
+   }
+   .info-2{
+    font-size: 40px;
+    font-weight: 600;
    }
 }
 
